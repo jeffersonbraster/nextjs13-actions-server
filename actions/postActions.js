@@ -1,7 +1,7 @@
 "use server";
 import { revalidatePath } from "next/cache";
 import connectDB from "../database/mongodb";
-import Post from "../models/PostModel";
+import Post from "../models/postModel";
 
 connectDB();
 
